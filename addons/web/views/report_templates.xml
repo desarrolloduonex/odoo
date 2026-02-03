@@ -7,7 +7,7 @@
                 <div class="row align-items-center w-100">
 
                     <!-- Columna 1: Logo + tagline -->
-                    <div class="col-5">
+                    <div class="col-5 d-flex flex-column justify-content-center">
                         <img t-if="company.logo"
                              class="o_company_logo_big"
                              t-att-src="image_data_uri(company.logo)"
@@ -38,11 +38,11 @@
                     <!-- Columna 3: Logos legales -->
                     <div class="col-2 text-end">
                         <img src="/cfi_custom/static/src/lssi.jpg"
-                             style="max-width: 100%; height: auto; margin-bottom: 10px;"
+                             style="max-width: 60%; height: auto; margin-bottom: 10px;"
                              alt="LSSI"/>
                         <br/>
                         <img src="/cfi_custom/static/src/rgpd.jpg"
-                             style="max-width: 100%; height: auto;"
+                             style="max-width: 60%; height: auto;"
                              alt="RGPD"/>
                     </div>
 
